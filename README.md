@@ -1,9 +1,9 @@
-# @hyperswarm/testnet
+# spaceswarm-testnet
 
-Small module to help you spin up a local Hyperswarm testnet.
+Small module to help you spin up a local Spaceswarm testnet.
 
 ```
-npm install @hyperswarm/testnet
+npm install spaceswarm-testnet
 ```
 
 Use this if you want to use the swarm in tests, etc.
@@ -11,7 +11,7 @@ Use this if you want to use the swarm in tests, etc.
 ## Usage
 
 ``` js
-const createTestnet = require('@hyperswarm/testnet')
+const createTestnet = require('spaceswarm-testnet')
 
 const testnet = await createTestnet(10) // create a local testnet with 10 dht nodes
 ```
@@ -40,7 +40,7 @@ An array of bootstrap addresses of the testnet.
 
 #### `const node = testnet.createNode([options])`
 
-Create an additional ephemeral node and add it to the testnet. Options are the same as [`new DHT()`](https://github.com/holepunchto/hyperdht#const-node--new-dhtoptions).
+Create an additional ephemeral node and add it to the testnet. Options are the same as [`new DHT()`](https://github.com/samooth/spacedht#const-node--new-dhtoptions).
 
 #### `for (const node of testnet)`
 

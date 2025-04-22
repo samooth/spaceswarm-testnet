@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const testnet = require('@hyperswarm/testnet')
+const testnet = require('spaceswarm-testnet')
 
 const size = Number(arg('--size', '-s') || 30)
 const host = arg('--host', '-h') || '127.0.0.1'

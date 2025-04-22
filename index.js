@@ -1,1 +1,1 @@
-module.exports = require('hyperdht/testnet')
+module.exports = require('spacedht/testnet')

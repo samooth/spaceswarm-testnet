@@ -1,29 +1,29 @@
 {
-  "name": "@hyperswarm/testnet",
-  "version": "3.1.4",
-  "description": "Small module to help you spin up a local Hyperswarm testnet",
+  "name": "spaceswarm-testnet",
+  "version": "0.0.1",
+  "description": "Small module to help you spin up a local Spaceswarm testnet",
   "main": "index.js",
   "bin": {
-    "hyperswarm-testnet": "./bin.js"
+    "spaceswarm-testnet": "./bin.js"
   },
   "dependencies": {
-    "hyperdht": "^6.6.0"
+    "spacedht": "latest"
   },
   "devDependencies": {
     "brittle": "^3.0.0",
-    "standard": "^17.0.0"
+    "standard": "^17.1.2"
   },
   "scripts": {
     "test": "standard && brittle test.mjs"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/holepunchto/hyperswarm-testnet.git"
+    "url": "https://github.com/samooth/spaceswarm-testnet.git"
   },
   "author": "Mathias Buus (@mafintosh)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/holepunchto/hyperswarm-testnet/issues"
+    "url": "https://github.com/samooth/spaceswarm-testnet/issues"
   },
-  "homepage": "https://github.com/holepunchto/hyperswarm-testnet"
+  "homepage": "https://github.com/samooth/spaceswarm-testnet"
 }
